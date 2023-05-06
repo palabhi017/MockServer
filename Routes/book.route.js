@@ -1,5 +1,5 @@
 const { authenticate } = require("../Middlewares/auth.middleware")
-const {bookModel} = require("../Models/bookModel")
+const {bookModel} = require("../Models/BookModel")
 const express = require("express")
 const bookRouter = express.Router()
 
