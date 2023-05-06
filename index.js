@@ -20,9 +20,9 @@ const connectDB = async () => {
 const app = express()
 
 app.use(express.json())
-app.use("user",userRouter)
-app.use("books",bookRouter)
-app.use("order",orderRouter)
+app.use("/user",userRouter)
+app.use("/books",bookRouter)
+app.use("/order",orderRouter)
 
 
 
